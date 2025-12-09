@@ -24,29 +24,7 @@ import { Subscription } from 'rxjs';
 
 	public constructor(private swalService: SwalService, private chatService: ChatService){}
 
-	public async ngOnInit(): Promise<void> {
-
-		/*try{
-
-			console.log(await this.chatService.findOneByHash('63d2402b9cf084165c7341084be927f42623ebfe55e4b1dade313ec8f9da82a8'));
-
-		}catch(e: any){
-
-			this.swalService.showException('Error', e.message);
-
-		}/**/
-
-		/*this.chatService.findOneByUsers('q4CF068DfiW74FNywWYGzfO1QXW2', '2QWWaxV5dxT6wViaMlESUfCQTbC3').subscribe({
-
-			next: (t) => {
-
-				console.log(t);
-
-			}, error: (e: any) => this.swalService.showException('Error', e.message)
-
-		});/**/
-
-	}
+	public async ngOnInit(): Promise<void> {}
 
 	public ngOnDestroy(): void {}
 
