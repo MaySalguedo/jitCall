@@ -62,3 +62,8 @@ A modern contact management solution with real-time synchronization and secure c
 git clone https://github.com/Dandelionield/jitCall.git
 cd jitcall
 npm install
+```
+
+##
+
+<div align="center"> <em>JitCall - Stay connected, securely and in real-time.</em> </div>
